@@ -169,20 +169,6 @@ class Config(dict):
     def node_list(self):
         """ A pre-defined list of Bitshares nodes. """
         return [
-            "wss://status200.bitshares.apasia.tech/ws",
             "wss://eu.openledger.info/ws",
-            "wss://bitshares.openledger.info/ws",
-            "wss://dexnode.net/ws",
-            "wss://japan.bitshares.apasia.tech/ws",
-            "wss://bitshares-api.wancloud.io/ws",
-            "wss://openledger.hk/ws",
-            "wss://bitshares.apasia.tech/ws",
-            "wss://bitshares.crypto.fans/ws",
-            "wss://kc-us-dex.xeldal.com/ws",
-            "wss://api.bts.blckchnd.com",
-            "wss://btsza.co.za:8091/ws",
-            "wss://bitshares.dacplay.org/ws",
-            "wss://bit.btsabc.org/ws",
-            "wss://bts.ai.la/ws",
-            "wss://ws.gdex.top"
+            "wss://dex.rnglab.org"
         ]
